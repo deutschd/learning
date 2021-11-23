@@ -32,13 +32,75 @@
             background-color: yellow;
         }
 
+        body {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+
         .done {
             text-decoration: line-through;
+        }
+
+        .fancybox {
+            border: 5px solid green;
+            margin: 1em;
+            padding: 0.5em;
+            width: 150px;
+            height: 50px;
+            float: right;
+        }
+
+        .bluebox {
+            border: 10px solid blue;
+            padding: 0.5em;
+            margin: 0.5em;
+            width: 150px;
+            height: 100px;
+        }
+
+        .redbox {
+            border: 10px solid red;
+            padding: 0.5em;
+            margin: 0.5em;
+            width: 20px;
+            height: 20px;
         }
     </style>
 </head>
 
 <body>
+    <style>
+        .outer {
+            width: 300px;
+            border: 5px dotted orange;
+        }
+
+        .inner {
+            border: 5px solid blue;
+            width: 50%;
+        }
+    </style>
+    <div class="outer">
+        <p> This box has a box inside!
+        <div class="inner">
+            <p> How wide is the inner box,
+                <em>including</em> its border?
+        </div>
+    </div>
+
+
+    <div class="bluebox">Hooray a box!</div>
+    <div class="redbox"></div>
+
+    <div class="fancybox">This is a fancy little box, isn't it?</div>
+    <div class="fancybox">Let's have another fancy box for the revolution!</div>
+
+    <p>This will be blue, not red, <br>
+        <em>Same with this.</em>
+    </p>
 
     <h1 class="special">This header is special</h1>
     <p>A nice paragraph in italics.</p>
