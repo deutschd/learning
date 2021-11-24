@@ -1,0 +1,7 @@
+p {
+	color: purple;
+	font-variant-caps: small-caps;
+	font-family: 'Estonia', cursive;
+	font-size: 64px;
+	text-shadow: 4px 4px 4px #aaa;
+}
