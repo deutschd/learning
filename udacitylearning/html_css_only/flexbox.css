@@ -24,3 +24,20 @@
 .yellow {
 	background-color: yellow;
 }
+
+ul {
+	list-style-type: none;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+}
+ul li {
+	width: 90px;
+	height: 90px;
+	background-color: lightblue;
+	margin: 5px;
+	text-align: center;
+	font-style: sans-serif;
+	font-size: 80px;
+}
